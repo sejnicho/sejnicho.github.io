@@ -14,21 +14,42 @@
 	</head>
 	<body>
 
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <!-- Far Left Logo/Button and accompanying menu for mobile devices-->
+      <div class="navbar-brand">
+        <!-- Main Page Button -->
+        <a class="navbar-item" href="https://bulma.io">Seth Nicholson</a>
 
-    <!-- NAVBAR -->
-    <div class="navbar">
-      <a class="nav-title-link" href="./index.html">
-        <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
-        <span class="nav-title">Seth Nicholson</span>
-         <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
-        <a class="button" href="mailto:seth.j.nicholson@gmail.com">
-          <span class="button-text">Contact Me</span>
+        <!-- Compressed Menu for Mobile -->
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
         </a>
-      </a>
-    </div>
 
-     <!-- MAIN PAGE CONTENT -->
-     <div id="main-content">
+      </div>
+
+      <div class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item">
+            Home
+          </a>
+          <a class="navbar-item">
+            Projects
+          </a>
+          <a class="navbar-item">
+            CV
+          </a>
+        </div>
+      </div>
+
+    </nav>
+
+    
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
 
         <!-- PORTFOLIO HEADER -->
         <div id="portfolio-header">
