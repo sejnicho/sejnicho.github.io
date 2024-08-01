@@ -74,8 +74,8 @@ html,
   } */
   
   .portfolio-header-image {
-    width: 75%;
-    height: auto;
+    height: 75%;
+    width: auto;
   }
   
   /* #portfolio-header-text-container {
