@@ -324,6 +324,7 @@ html,
     top: 0;
     left: 0; */
     background-color: hsl(0 100% 100% / 0.4);
+    min-height: 6rem;
   }
   
   /* .nav-title-link {
