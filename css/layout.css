@@ -2,7 +2,7 @@
 
 html,
 
-* {
+/* * {
     box-sizing: border-box;
   }
   
@@ -17,6 +17,21 @@ html,
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  } */
+
+
+  /* Currently Used */
+  .navbar {
+    /* width: 100%;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0; */
+    background-color: hsl(0 100% 100% / 0.4);
+    min-height: 6rem;
   }
   
   /* Fonts */
@@ -265,11 +280,6 @@ html,
     font-weight: 500;
   }
 
-  .brand-text {
-    font-size: 30px;
-    font-weight: 600;
-  }
-  
   .project-card-text {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -314,18 +324,16 @@ html,
   
   /* Navbar Styling */
   
-  .navbar {
-    /* width: 100%;
+  /* .navbar {
+    width: 100%;
     padding: 30px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     top: 0;
-    left: 0; */
-    background-color: hsl(0 100% 100% / 0.4);
-    min-height: 6rem;
-  }
+    left: 0;
+  } */
   
   /* .nav-title-link {
     color: black;
