@@ -60,7 +60,7 @@ html,
   
   /* Portfolio Header */
   
-  #portfolio-header {
+  /* #portfolio-header {
     display: flex;
     gap: 20px;
     align-items: center;
@@ -71,20 +71,20 @@ html,
     flex-direction: column;
     gap: 10px;
     flex-basis: 50%;
-  }
+  } */
   
   .portfolio-header-image {
-    width: 50%;
+    width: 75%;
     height: auto;
   }
   
-  #portfolio-header-text-container {
+  /* #portfolio-header-text-container {
     display: flex;
     flex-direction: column;
     gap: 34px;
     flex-basis: 50%;
   }
-  
+   */
   
   
   
