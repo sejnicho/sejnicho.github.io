@@ -21,17 +21,18 @@ html,
 
 
   /* Currently Used */
+
+
   .navbar {
-    /* width: 100%;
-    padding: 30px 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0; */
     background-color: hsl(0 100% 100% / 0.4);
     min-height: 6rem;
+  }
+
+  .content.is-vertically-centered {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center; /* used this for multiple child */
+    align-items: center; /* if an only child */
   }
   
   /* Fonts */
@@ -345,12 +346,12 @@ html,
   }
   
   /* Small devices (portrait tablets and large phones, 800px and below) */
-  @media only screen and (max-width: 800px) {
+  /* @media only screen and (max-width: 800px) {
     .navbar {
       padding: 20px 20px;
       background-color: white
     }
-  } */
+  }  */
   
   
   /* Button Styling */
