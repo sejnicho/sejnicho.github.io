@@ -264,6 +264,11 @@ html,
     font-size: 16px;
     font-weight: 500;
   }
+
+  .burger-text {
+    font-size: 30px;
+    font-weight: 600;
+  }
   
   .project-card-text {
     overflow: hidden;
