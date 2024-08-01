@@ -200,7 +200,7 @@ html,
       }
   
   
-  /* Extra Extra large devices (large laptops and desktops, 1200px and below) */
+  /* Extra Extra large devices (large laptops and desktops, 1200px and below)
   @media only screen and (max-width: 1600px) {
     #main-content {
       margin: 225px 275px;
@@ -245,11 +245,11 @@ html,
     .project-card {
       max-width: 100%;
     }
-  }
+  } */
 
-  body {
+  /* body {
     font-family: "Roboto Mono", sans-serif;
-  }
+  } */
   
   .nav-title {
     font-weight: 700;
@@ -355,7 +355,7 @@ html,
   
   
   /* Button Styling */
-  
+/*   
   a.button {
     padding: 8px 16px;
     border: 3px solid #141414;
@@ -372,22 +372,22 @@ html,
     text-decoration: underline;
     text-decoration-thickness: 2px;
     cursor: pointer;
-  }
+  } */
   
   
   /* Footer Styling */
   
-  #footer {
+  /* #footer {
     width: 100%;
     display: flex;
     padding: 30px 50px;
     justify-content: center;
     align-items: center;
     gap: 16px;
-  }
+  } */
   
   /* Link Styling */
-  a.no-underline {
+  /* a.no-underline {
     text-decoration: none;
     color: black
   }
@@ -395,11 +395,11 @@ html,
   a.no-underline:hover {
     text-decoration: underline;
     cursor: pointer;
-  }
+  } */
   
   /* Small devices (portrait tablets and large phones, 800px and below) */
-  @media only screen and (max-width: 800px) {
+  /* @media only screen and (max-width: 800px) {
     #footer {
       padding: 20px 20px;
     }
-  }
+  } */
