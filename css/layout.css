@@ -75,9 +75,11 @@ html,
   } 
   
   .portfolio-header-image {
-    height: auto;
+    /* height: auto;
     width: auto;
-    max-height: 480px;
+    max-height: 480px; */
+    height: 256px;
+    width: 256px;
   }
   
   /* #portfolio-header-text-container {
