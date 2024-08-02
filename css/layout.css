@@ -32,6 +32,7 @@ html,
   /* By making a box with a constant height, we can have a const size hero regardless of content maybe */
   .hero-box {
     height: 600px;
+    max-height: 600px;
     width: 100%;
 
   }
