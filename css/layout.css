@@ -25,15 +25,15 @@ html,
 
   .navbar {
     background-color: hsl(0 100% 100% / 0.4);
-    min-height: 6rem;
+    /* min-height: 6rem; */
   }
 
-  .content.is-vertically-centered {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center; /* used this for multiple child */
-    align-items: center; /* if an only child */
-  }
+  /* .content.is-vertically-centered { */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* align-content: center; used this for multiple child */
+    /* align-items: center; if an only child */
+  /* } */
   
   /* Fonts */
 
@@ -77,6 +77,7 @@ html,
     width: 100%;
     height: auto;
     max-width: 480px;
+    margin: 0px 0px;
   }
   
   /* #portfolio-header-text-container {
