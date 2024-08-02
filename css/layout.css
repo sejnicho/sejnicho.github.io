@@ -75,11 +75,9 @@ html,
   } 
   
   .portfolio-header-image {
-    /* height: auto;
+    height: auto;
     width: auto;
-    max-height: 480px; */
-    height: 256px;
-    width: 256px;
+    max-height: 100%-(2*var(--bulma-hero-body-padding));
   }
   
   /* #portfolio-header-text-container {
