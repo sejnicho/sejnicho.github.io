@@ -28,6 +28,14 @@ html,
     min-height: 6rem;
   }
 
+
+  /* By making a box with a constant height, we can have a const size hero regardless of content maybe */
+  .hero-box {
+    height: 600px;
+    width: 100%;
+
+  }
+
   /* .content.is-vertically-centered { */
     /* display: flex; */
     /* flex-wrap: wrap; */
