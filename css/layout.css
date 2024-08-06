@@ -50,7 +50,6 @@ html,
     width: 100%;
     padding-top: var(--level-pad);
     padding-bottom: var(--level-pad);
-    object-fit: contain;
   }
 
   /* .content.is-vertically-centered { */
@@ -91,12 +90,14 @@ html,
     align-items: center;
   } */
   
-  #portfolio-header-image-container {
+  .portfolio-header-image-container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    flex-basis: 50%;
+    /* gap: 10px; */
+    /* flex-basis: 50%; */
     margin: 0px 0px;
+    height: calc(var(--level-size) - var(--level-pad) * 2);
+    object-fit: contain;
   } 
   
   .portfolio-header-image {
