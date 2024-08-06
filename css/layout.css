@@ -44,9 +44,12 @@ html,
   .level {
     display: flex;
     flex-wrap: wrap;
+    
 
     height: var(--level-size);
     width: 100%;
+    padding-top: var(--level-pad);
+    padding-bottom: var(--level-pad);
   }
 
   /* .content.is-vertically-centered { */
@@ -96,8 +99,8 @@ html,
   } 
   
   .portfolio-header-image {
-    height: calc(var(--level-size) - var(--level-pad) * 2);
-    width: auto;
+    height: 100%;
+    width: 100%;
   }
   
   /* #portfolio-header-text-container {
