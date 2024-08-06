@@ -36,6 +36,14 @@ html,
 
   }
 
+  .level {
+    display: flex;
+    flex-wrap: wrap;
+
+    height: 75vh;
+    width: 100%;
+  }
+
   /* .content.is-vertically-centered { */
     /* display: flex; */
     /* flex-wrap: wrap; */
