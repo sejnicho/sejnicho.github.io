@@ -96,7 +96,7 @@ html,
   } 
   
   .portfolio-header-image {
-    height: var(--level-size)-2*var(--level-pad);
+    height: calc(var(--level-size) - var(--level-pad) * 2);
     width: auto;
   }
   
