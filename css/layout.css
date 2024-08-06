@@ -97,12 +97,12 @@ html,
     /* flex-basis: 50%; */
     margin: 0px 0px;
     height: calc(var(--level-size) - var(--level-pad) * 2);
-    object-fit: contain;
   } 
   
   .portfolio-header-image {
     height: 100%;
     width: 100%;
+    object-fit: contain;
   }
   
   /* #portfolio-header-text-container {
