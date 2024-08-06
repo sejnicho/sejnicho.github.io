@@ -22,6 +22,11 @@ html,
 
   /* Currently Used */
 
+  :root {
+    --level-size:75vh;
+    --level-pad:10vh;
+  }
+
 
   .navbar {
     background-color: hsl(0 100% 100% / 0.4);
@@ -40,7 +45,7 @@ html,
     display: flex;
     flex-wrap: wrap;
 
-    height: 75vh;
+    height: var(--level-size);
     width: 100%;
   }
 
@@ -91,9 +96,8 @@ html,
   } 
   
   .portfolio-header-image {
-    height: auto;
+    height: var(--level-size)-2*var(--level-pad);
     width: auto;
-    max-height: 100%-(2*var(--bulma-hero-body-padding));
   }
   
   /* #portfolio-header-text-container {
