@@ -17,6 +17,7 @@ window.onscroll = function() {
     navbar.classList.add("is-dark")
     navbar.classList.remove("is-light")
     navbar.classList.remove("is-not-scrolled")
+    navbar.classList.remove("is-transparent")
 
     // Navbar brand colors
     // nbtext.classList.remove("has-text-dark")
@@ -27,6 +28,7 @@ window.onscroll = function() {
     navbar.classList.remove("is-dark")
     navbar.classList.add("is-light")
     navbar.classList.add("is-not-scrolled")
+    navbar.classList.add("is-transparent")
 
     // Navbar brand colors
     // nbtext.classList.add("has-text-dark")
