@@ -19,116 +19,111 @@ html,
     -moz-osx-font-smoothing: grayscale;
   } */
 
-  body {
-    /* margin: 5vh; */
-    background-color: var(--background-primary);
-  }
-
-  /* Currently Used */
-
-  :root {
-    --level-size:100vh;
-    --level-pad:20vh;
-    --background-primary: hsl(345,11.1%,92.9%);
-    --dark-blue: hsl(191.4,100%,22.7%);
-    --light-blue: hsl(192.9,31.8%,65.5%);
-    --dark-green: hsl(97.3,17.8%,50.4%);
-    --light-green: hsl(87,25.6%,84.7%);
-    --yellow: hsl(47.4,99.2%,48.8%);
-    --pink-red: hsl(12.6,26.7%,68.4%);
-    --transparent: hsla(0, 0%, 100%, 0);
-  }
 
 
-  .navbar {
-    /* background-color: hsl(0 100% 100% / 0.4); */
-    transition: all 1s ease-in-out;
-    /* min-height: 6rem; */
-  }
+/* Currently Used */
 
-  .is-not-scrolled {
-    background-color: hsla(0, 0%, 100%, 0.15);
-  }
+:root {
+  --level-size:100vh;
+  --level-pad:20vh;
+  --background-primary: hsl(345,11.1%,92.9%);
+  --dark-blue: hsl(191.4,100%,22.7%);
+  --light-blue: hsl(192.9,31.8%,65.5%);
+  --dark-green: hsl(97.3,17.8%,50.4%);
+  --light-green: hsl(87,25.6%,84.7%);
+  --yellow: hsl(47.4,99.2%,48.8%);
+  --pink-red: hsl(12.6,26.7%,68.4%);
+  --transparent: hsla(0, 0%, 100%, 0);
+}
 
-  .level {
-    display: flex;
-    flex-wrap: wrap;
-    
-
-    height: var(--level-size);
-    width: 100%;
-    padding-top: var(--level-pad);
-    padding-bottom: var(--level-pad);
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-  .columns {
-    flex-grow: 1;
-  }
+body {
+  /* margin: 5vh; */
+  background-color: var(--background-primary);
+}
 
 
-  /* Color Options */
-  .is-background-primary {
-    background-color: var(--background-primary);
-  }
+.navbar {
+  /* background-color: hsl(0 100% 100% / 0.4); */
+  transition: all .5s ease-in-out;
+  /* min-height: 6rem; */
+}
 
-  .is-dark-blue {
-    background-color: var(--dark-blue);
-  }
+.is-not-scrolled {
+  background-color: hsla(0, 0%, 100%, 0.15);
+}
 
-  .is-light-blue {
-    background-color: var(--light-blue)
-  }
+.columns {
+  flex-grow: 1;
+}
 
-  .is-dark-green {
-    background-color: var(--dark-green);
-  }
+.portfolio-header-image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
 
-  .is-light-green {
-    background-color: var(--light-green);
-  }
 
-  .is-yellow {
-    background-color: var(--yellow);
-  }
+/* Color Options */
+.is-background-primary {
+  background-color: var(--background-primary);
+}
 
-  .is-pink-red {
-    background-color: var(--pink-red);
-  }
+.is-dark-blue {
+  background-color: var(--dark-blue);
+}
 
-  .is-invisible {
-    background-color: hsl(0 100% 100% / 0.4);
-  }
+.is-light-blue {
+  background-color: var(--light-blue)
+}
 
-  /* Dropshadow */
-  .dropshadow-is-background-primary {
-    box-shadow: 10px 10px 5px 12px var(--background-primary);
-  }
+.is-dark-green {
+  background-color: var(--dark-green);
+}
 
-  .dropshadow-is-dark-blue {
-    box-shadow: 5px 5px 20px 5px var(--dark-blue);
-  }
+.is-light-green {
+  background-color: var(--light-green);
+}
 
-  .dropshadow-is-light-blue {
-    box-shadow: 10px 10px 5px 12px var(--light-blue)
-  }
+.is-yellow {
+  background-color: var(--yellow);
+}
 
-  .dropshadow-is-dark-green {
-    box-shadow: 10px 10px 5px 12px var(--dark-green);
-  }
+.is-pink-red {
+  background-color: var(--pink-red);
+}
 
-  .dropshadow-is-light-green {
-    box-shadow: 10px 10px 5px 12px var(--light-green);
-  }
+.is-invisible {
+  background-color: hsl(0 100% 100% / 0.4);
+}
 
-  .dropshadow-is-yellow {
-    box-shadow: 10px 10px 5px 12px var(--yellow);
-  }
+/* Dropshadow */
+.dropshadow-is-background-primary {
+  box-shadow: 10px 10px 5px 12px var(--background-primary);
+}
 
-  .dropshadow-is-pink-red {
-    box-shadow: 10px 10px 5px 12px var(--pink-red);
-  }
+.dropshadow-is-dark-blue {
+  box-shadow: 5px 5px 20px 5px var(--dark-blue);
+}
+
+.dropshadow-is-light-blue {
+  box-shadow: 10px 10px 5px 12px var(--light-blue)
+}
+
+.dropshadow-is-dark-green {
+  box-shadow: 10px 10px 5px 12px var(--dark-green);
+}
+
+.dropshadow-is-light-green {
+  box-shadow: 10px 10px 5px 12px var(--light-green);
+}
+
+.dropshadow-is-yellow {
+  box-shadow: 10px 10px 5px 12px var(--yellow);
+}
+
+.dropshadow-is-pink-red {
+  box-shadow: 10px 10px 5px 12px var(--pink-red);
+}
 
 
 
@@ -179,11 +174,7 @@ html,
     height: calc(var(--level-size) - var(--level-pad) * 2);
   } 
   
-  .portfolio-header-image {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-  }
+
   
   /* #portfolio-header-text-container {
     display: flex;

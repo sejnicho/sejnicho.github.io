@@ -1,0 +1,17 @@
+:root {
+    --level-size:100vh;
+    --level-pad:20vh;
+}
+
+.level {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+    height: var(--level-size);
+    width: 100%;
+    padding-top: var(--level-pad);
+    padding-bottom: var(--level-pad);
+    padding-top: 0;
+    padding-bottom: 0;
+}
