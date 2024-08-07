@@ -18,9 +18,9 @@ window.onscroll = function() {
     navbar.classList.remove("is-light")
     navbar.classList.remove("is-not-scrolled")
 
-    // // Navbar brand colors
-    // nbtext.classList.remove("has-text-black-ter")
-    // nbtext.classList.add("has-text-white-ter")
+    // Navbar brand colors
+    nbtext.classList.remove("has-text-dark")
+    nbtext.classList.add("has-text-light")
 
   } else {
     // Navbar colors
@@ -28,9 +28,9 @@ window.onscroll = function() {
     navbar.classList.add("is-light")
     navbar.classList.add("is-not-scrolled")
 
-    // // Navbar brand colors
-    // nbtext.classList.add("has-text-black-ter")
-    // nbtext.classList.remove("has-text-white-ter")
+    // Navbar brand colors
+    nbtext.classList.add("has-text-dark")
+    nbtext.classList.remove("has-text-light")
 
   }
 };
