@@ -8,20 +8,29 @@ if (document.getElementById('my-work-link')) {
 
 // Navbar color change from https://stackoverflow.com/questions/39802412/change-navbar-color-while-scrolling
 var navbar = document.getElementById("navbar");
+var nbtext = document.getElementById("navbar-brand-text");
 
 window.onscroll = function() {
   "use strict";
-  if (document.body.scrollTop >= 120 || document.documentElement.scrollTop >= 120) {
+  if (document.body.scrollTop >= 80 || document.documentElement.scrollTop >= 80) {
     // navbar.classList.add("is-scrolled");
     navbar.classList.add("is-black")
     navbar.classList.remove("is-primary")
     navbar.classList.remove("is-not-scrolled")
 
+    // Navbar brand colors
+    nbtext.classList.add("has-text-black-ter")
+    nbtext.classList.remove("has-text-white-ter")
+
   } else {
-    // navbar.classList.remove("scrolled");
+    // Navbar colors
     navbar.classList.remove("is-black")
     navbar.classList.add("is-primary")
     navbar.classList.add("is-not-scrolled")
+
+    // Navbar brand colors
+    nbtext.classList.remove("has-text-black-ter")
+    nbtext.classList.add("has-text-white-ter")
 
   }
 };
