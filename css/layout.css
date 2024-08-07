@@ -23,10 +23,10 @@ html,
 
 /* Currently Used */
 
-/* body { */
-  /* margin: 5vh; */
+body {
+  margin: 0;
   /* background-color: var(--background-primary); */
-/* } */
+}
 
 
 .navbar {
