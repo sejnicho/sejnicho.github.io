@@ -46,12 +46,8 @@ html,
     /* min-height: 6rem; */
   }
 
-  .scroll {
+  .is-scrolled {
     background-color: black;
-  }
-  .navbar.scrolled {
-    background-color:hsla(0, 0%, 0%, 0.4) !important;
-    transition: background-color 200ms linear;
   }
 
   .level {

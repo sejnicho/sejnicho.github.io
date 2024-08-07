@@ -11,29 +11,14 @@ var navbar = document.getElementById("navbar");
 
 window.onscroll = function() {
   "use strict";
-  if (document.body.scrollTop >= 280 || document.documentElement.scrollTop >= 280) {
-    navbar.classList.add("scroll");
+  if (document.body.scrollTop >= 80 || document.documentElement.scrollTop >= 80) {
+    navbar.classList.add("is-scrolled");
+    navbar.classList.add("has-text-white-ter")
   } else {
-    navbar.classList.remove("scroll");
+    navbar.classList.remove("scrolled");
+    navbar.classList.remove("has-text-white-ter")
   }
 };
-
-// Navbar color change from https://stackoverflow.com/questions/23706003/changing-nav-bar-color-after-scrolling
-//figure out jquery next time
-// $(function () {
-//   $(document).scroll(function () {
-//     var $nav = $(".navbar");
-//     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-//   });
-// });
-
-// const Menu = document.getElementById('Menu');
-
-
-// const captureclick = () => {
-//   capture.classList.toggle('is-active');
-  
-// };
 
 // document.addEventListener('DOMContentLoaded', () => {
 
