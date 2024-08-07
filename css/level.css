@@ -18,3 +18,7 @@
     padding-right: 15vh;
     padding-left: 15vh;
 }
+
+.is-half-level {
+    height: calc(var(--level-size) / 2);
+}
