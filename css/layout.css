@@ -27,8 +27,8 @@ html,
   /* Currently Used */
 
   :root {
-    --level-size:80vh;
-    --level-pad:10vh;
+    --level-size:100vh;
+    --level-pad:20vh;
     --background-primary: hsl(345,11.1%,92.9%);
     --dark-blue: hsl(191.4,100%,22.7%);
     --light-blue: hsl(192.9,31.8%,65.5%);
@@ -47,11 +47,7 @@ html,
   }
 
   .is-not-scrolled {
-    background-color: hsl(0 100% 100% / 0.4);
-  }
-  
-  .is-scrolled {
-    background-color: black;
+    background-color: hsla(0, 0%, 100%, 0.15);
   }
 
   .level {
