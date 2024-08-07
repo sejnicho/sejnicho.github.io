@@ -45,6 +45,11 @@ html,
     /* min-height: 6rem; */
   }
 
+  .navbar.scrolled {
+    background-color:hsla(0, 0%, 0%, 0.4) !important;
+    transition: background-color 200ms linear;
+  }
+
   .level {
     display: flex;
     flex-wrap: wrap;

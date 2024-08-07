@@ -4,6 +4,14 @@ if (document.getElementById('my-work-link')) {
     })
 }
 
+// Navbar color change from https://stackoverflow.com/questions/23706003/changing-nav-bar-color-after-scrolling
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+
 // const Menu = document.getElementById('Menu');
 
 
