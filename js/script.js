@@ -14,11 +14,12 @@ window.onscroll = function() {
   if (document.body.scrollTop >= 120 || document.documentElement.scrollTop >= 120) {
     // navbar.classList.add("is-scrolled");
     navbar.classList.add("is-black")
+    navbar.classList.remove("is-transparent")
 
   } else {
     // navbar.classList.remove("scrolled");
+    navbar.classList.add("is-transparent")
     navbar.classList.remove("is-black")
-    
 
   }
 };
