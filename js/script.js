@@ -1,16 +1,31 @@
+
 if (document.getElementById('my-work-link')) {
     document.getElementById('my-work-link').addEventListener('click', () => {
       document.getElementById('my-work-section').scrollIntoView({behavior: "smooth"})
     })
 }
 
+
+// Navbar color change from https://stackoverflow.com/questions/39802412/change-navbar-color-while-scrolling
+var navbar = document.getElementById("navbar");
+
+window.onscroll = function() {
+  "use strict";
+  if (document.body.scrollTop >= 280 || document.documentElement.scrollTop >= 280) {
+    navbar.classList.add("scroll");
+  } else {
+    navbar.classList.remove("scroll");
+  }
+};
+
 // Navbar color change from https://stackoverflow.com/questions/23706003/changing-nav-bar-color-after-scrolling
-$(function () {
-  $(document).scroll(function () {
-    var $nav = $(".navbar");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-  });
-});
+//figure out jquery next time
+// $(function () {
+//   $(document).scroll(function () {
+//     var $nav = $(".navbar");
+//     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+//   });
+// });
 
 // const Menu = document.getElementById('Menu');
 

@@ -42,9 +42,13 @@ html,
 
   .navbar {
     background-color: hsl(0 100% 100% / 0.4);
+    transition: all .5s ease-in-out;
     /* min-height: 6rem; */
   }
 
+  .scroll {
+    background-color: black;
+  }
   .navbar.scrolled {
     background-color:hsla(0, 0%, 0%, 0.4) !important;
     transition: background-color 200ms linear;
