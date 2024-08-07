@@ -1,6 +1,6 @@
 :root {
     --level-size:100vh;
-    --level-pad:20vh;
+    --level-pad:10vh;
 }
 
 .level {
@@ -20,5 +20,5 @@
 }
 
 .is-half-level {
-    height: calc(var(--level-size) / 2);
+    height: calc(var(--level-size) * 3 / 4);
 }
