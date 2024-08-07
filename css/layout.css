@@ -46,6 +46,10 @@ html,
     /* min-height: 6rem; */
   }
 
+  .is-not-scrolled {
+    background-color: hsl(0 100% 100% / 0.4);
+  }
+  
   .is-scrolled {
     background-color: black;
   }
