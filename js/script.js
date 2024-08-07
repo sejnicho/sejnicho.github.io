@@ -19,8 +19,8 @@ window.onscroll = function() {
     navbar.classList.remove("is-not-scrolled")
 
     // Navbar brand colors
-    nbtext.classList.add("has-text-black-ter")
-    nbtext.classList.remove("has-text-white-ter")
+    nbtext.classList.remove("has-text-black-ter")
+    nbtext.classList.add("has-text-white-ter")
 
   } else {
     // Navbar colors
