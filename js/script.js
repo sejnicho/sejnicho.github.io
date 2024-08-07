@@ -14,9 +14,13 @@ window.onscroll = function() {
   if (document.body.scrollTop >= 80 || document.documentElement.scrollTop >= 80) {
     navbar.classList.add("is-scrolled");
     navbar.classList.add("has-text-white-ter")
+    navbar.classList.remove("has-text-black-ter")
+
   } else {
     navbar.classList.remove("scrolled");
     navbar.classList.remove("has-text-white-ter")
+    navbar.classList.add("has-text-black-ter")
+
   }
 };
 
