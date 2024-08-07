@@ -12,14 +12,13 @@ var navbar = document.getElementById("navbar");
 window.onscroll = function() {
   "use strict";
   if (document.body.scrollTop >= 120 || document.documentElement.scrollTop >= 120) {
-    navbar.classList.add("is-scrolled");
-    navbar.classList.add("has-text-white-ter")
-    navbar.classList.remove("has-text-black-ter")
+    // navbar.classList.add("is-scrolled");
+    navbar.classList.add("is-black")
 
   } else {
-    navbar.classList.remove("scrolled");
-    navbar.classList.remove("has-text-white-ter")
-    navbar.classList.add("has-text-black-ter")
+    // navbar.classList.remove("scrolled");
+    navbar.classList.remove("is-black")
+    
 
   }
 };
