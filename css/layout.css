@@ -20,7 +20,7 @@ html,
   } */
 
   body {
-    margin: 5vh;
+    /* margin: 5vh; */
     background-color: var(--background-primary);
   }
 
