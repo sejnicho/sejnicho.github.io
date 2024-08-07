@@ -36,9 +36,7 @@ html,
     --light-green: hsl(87,25.6%,84.7%);
     --yellow: hsl(47.4,99.2%,48.8%);
     --pink-red: hsl(12.6,26.7%,68.4%);
-
-    
-
+    --transparent: hsla(0, 0%, 100%, 0);
   }
 
 
@@ -94,13 +92,17 @@ html,
     background-color: var(--pink-red);
   }
 
+  .is-invisible {
+    background-color: hsl(0 100% 100% / 0.4);
+  }
+
   /* Dropshadow */
   .dropshadow-is-background-primary {
     box-shadow: 10px 10px 5px 12px var(--background-primary);
   }
 
   .dropshadow-is-dark-blue {
-    box-shadow: 10px 10px 5px 12px var(--dark-blue);
+    box-shadow: 5px 5px 20px 5px var(--dark-blue);
   }
 
   .dropshadow-is-light-blue {
