@@ -1,10 +1,14 @@
-
 if (document.getElementById('about')) {
     document.getElementById('about').addEventListener('click', () => {
       document.getElementById('about-level').scrollIntoView({behavior: "smooth"})
     })
 }
 
+if (document.getElementById('projects')) {
+  document.getElementById('projects').addEventListener('click', () => {
+    document.getElementById('project-level').scrollIntoView({behavior: "smooth"})
+  })
+}
 
 // Navbar color change from https://stackoverflow.com/questions/39802412/change-navbar-color-while-scrolling
 var navbar = document.getElementById("navbar");

@@ -8,14 +8,10 @@
     --yellow: hsl(47.4,99.2%,48.8%);
     --pink-red: hsl(12.6,26.7%,68.4%);
     --transparent: hsla(0, 0%, 100%, 0);
-    --background-primary: hsl(32, 12%, 79%);
+    --pink-cream: hsl(13, 53%, 84%);
   }
 
-  /* Color Options */
-.is-background-primary {
-    background-color: var(--background-primary);
-}
-  
+  /* Color Options */  
 .is-dark-blue {
 background-color: var(--dark-blue);
 }
@@ -40,15 +36,15 @@ background-color: var(--yellow);
 background-color: var(--pink-red);
 }
 
+.is-pink-cream {
+  background-color: var(--pink-cream);
+}
+
 .is-invisible {
 background-color: hsl(0 100% 100% / 0.4);
 }
 
 /* Dropshadow */
-.dropshadow-is-background-primary {
-box-shadow: 10px 10px 5px 12px var(--background-primary);
-}
-
 .dropshadow-is-dark-blue {
 box-shadow: 5px 5px 20px 5px var(--dark-blue);
 }
@@ -71,4 +67,8 @@ box-shadow: 10px 10px 5px 12px var(--yellow);
 
 .dropshadow-is-pink-red {
 box-shadow: 10px 10px 5px 12px var(--pink-red);
+}
+
+.dropshadow-is-pink-cream {
+  box-shadow: 10px 10px 5px 12px var(--pink-cream);
 }
