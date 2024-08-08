@@ -55,6 +55,10 @@ body {
   max-width: 20vw;
 }
 
+@media only screen and (max-width: 768px) {
+  .is-project {
+      max-width: 80vw;
+  }
 
 
   /* .content.is-vertically-centered { */
