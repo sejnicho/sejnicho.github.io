@@ -3,12 +3,15 @@
     --level-pad:15vh;
 }
 
-.level {
-    /* display: flex;
-    flex-wrap: wrap;
-     */
-
+.is-large-level {
     min-height: var(--level-size);
+    width: 100%;
+    padding-top: var(--level-pad);
+    padding-bottom: var(--level-pad);
+}
+
+.is-medium-level {
+    min-height: calc(var(--level-size) * 3 / 4);
     width: 100%;
     padding-top: var(--level-pad);
     padding-bottom: var(--level-pad);
@@ -17,10 +20,6 @@
 .has-text {
     padding-right: 15vh;
     padding-left: 15vh;
-}
-
-.is-medium-level {
-    height: calc(var(--level-size) * 3 / 4);
 }
 
 .title-text {
