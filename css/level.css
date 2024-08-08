@@ -22,3 +22,8 @@
 .is-medium-level {
     height: calc(var(--level-size) * 3 / 4);
 }
+
+.title-text {
+    width: 33vw;
+    padding: 0;
+}
