@@ -51,6 +51,10 @@ body {
   object-fit: contain;
 }
 
+.is-project {
+  max-width: 20vw;
+}
+
 
 
   /* .content.is-vertically-centered { */
