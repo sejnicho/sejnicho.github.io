@@ -28,3 +28,9 @@
     padding: 0;
     margin: 0;
 }
+
+@media only screen and (max-width: 600px) {
+    .title-text {
+        width: 80vw;
+    }
+}
