@@ -8,7 +8,7 @@
     flex-wrap: wrap;
      */
 
-    height: var(--level-size);
+    min-height: var(--level-size);
     width: 100%;
     padding-top: var(--level-pad);
     padding-bottom: var(--level-pad);
@@ -24,6 +24,7 @@
 }
 
 .title-text {
-    width: 45vw;
+    width: 40vw;
     padding: 0;
+    margin: 0;
 }
