@@ -1,20 +1,31 @@
 :root {
-    --level-size:100vh;
+    --large-level-size:100vh;
     --level-pad:15vh;
 }
 
 .is-large-level {
-    min-height: 100vh;
+    min-height: var(--large-level-size);
     width: 100%;
     padding-top: var(--level-pad);
     padding-bottom: var(--level-pad);
 }
 
 .is-medium-level {
-    min-height: calc(var(--level-size) * 3 / 4);
+    min-height: calc(var(--large-level-size) * 3 / 4);
     width: 100%;
     padding-top: var(--level-pad);
     padding-bottom: var(--level-pad);
+}
+
+.portfolio-header-image {
+    max-width: 40vw;
+    object-fit: contain;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .portfolio-header-image {
+        width: 80vw;
+    }
 }
 
 .has-text {

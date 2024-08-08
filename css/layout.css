@@ -26,11 +26,7 @@ body {
   flex-grow: 1;
 }
 
-.portfolio-header-image {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-}
+
 
 .is-project {
   max-width: 20vw;
@@ -40,12 +36,4 @@ body {
   .is-project {
       max-width: 80vw;
   }
-  
-  .portfolio-header-image-container {
-    display: flex;
-    flex-direction: column;
-    /* gap: 10px; */
-    /* flex-basis: 50%; */
-    margin: 0px 0px;
-    height: calc(var(--level-size) - var(--level-pad) * 2);
-  } 
+} 
