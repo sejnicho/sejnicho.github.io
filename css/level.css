@@ -4,9 +4,9 @@
 }
 
 .level {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    
+     */
 
     height: var(--level-size);
     width: 100%;
