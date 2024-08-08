@@ -4,7 +4,7 @@
 }
 
 .is-large-level {
-    min-height: var(--level-size);
+    min-height: 100vh;
     width: 100%;
     padding-top: var(--level-pad);
     padding-bottom: var(--level-pad);
