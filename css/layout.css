@@ -25,7 +25,7 @@ body {
   flex-wrap: wrap;
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
-  margin: auto;
+  margin: auto auto;
 }
 
 .navbar {
