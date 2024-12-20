@@ -20,8 +20,11 @@ body {
   box-sizing: border-box;
 }
 
-.is-container-centered {
-  margin: auto;
+.level.is-vcentered {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center; /* used this for multiple child */
+  align-items: center; /* if an only child */
 }
 
 .navbar {
