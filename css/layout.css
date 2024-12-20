@@ -24,7 +24,7 @@ body {
 .pages.is-stack {
   top: 5rem; /* Want this to be navbar height, but variable isn't responsive to change from larger text size*/
   /* top: var(--bulma-navbar-height); */
-  border-radius: 10%; /*Make a rounded stack*/
+  border-radius: 5vh; /*Make a rounded stack*/
 }
 
 .level.is-vcentered {
