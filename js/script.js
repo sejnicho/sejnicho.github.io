@@ -11,35 +11,35 @@ if (document.getElementById('projects')) {
 }
 
 // Navbar color change from https://stackoverflow.com/questions/39802412/change-navbar-color-while-scrolling
-var navbar = document.getElementById("navbar");
-var nbtext = document.getElementById("navbar-brand-text");
+// var navbar = document.getElementById("navbar");
+// var nbtext = document.getElementById("navbar-brand-text");
 
-window.onscroll = function() {
-  "use strict";
-  if (document.body.scrollTop >= 80 || document.documentElement.scrollTop >= 80) {
-    // navbar.classList.add("is-scrolled");
-    navbar.classList.add("is-dark")
-    navbar.classList.remove("is-light")
-    navbar.classList.remove("is-not-scrolled")
-    navbar.classList.remove("is-transparent")
+// window.onscroll = function() {
+//   "use strict";
+//   if (document.body.scrollTop >= 80 || document.documentElement.scrollTop >= 80) {
+//     // navbar.classList.add("is-scrolled");
+//     navbar.classList.add("is-dark")
+//     navbar.classList.remove("is-light")
+//     navbar.classList.remove("is-not-scrolled")
+//     navbar.classList.remove("is-transparent")
 
-    // Navbar brand colors
-    // nbtext.classList.remove("has-text-dark")
-    // nbtext.classList.add("has-text-light")
+//     // Navbar brand colors
+//     // nbtext.classList.remove("has-text-dark")
+//     // nbtext.classList.add("has-text-light")
 
-  } else {
-    // Navbar colors
-    navbar.classList.remove("is-dark")
-    navbar.classList.add("is-light")
-    navbar.classList.add("is-not-scrolled")
-    navbar.classList.add("is-transparent")
+//   } else {
+//     // Navbar colors
+//     navbar.classList.remove("is-dark")
+//     navbar.classList.add("is-light")
+//     navbar.classList.add("is-not-scrolled")
+//     navbar.classList.add("is-transparent")
 
-    // Navbar brand colors
-    // nbtext.classList.add("has-text-dark")
-    // nbtext.classList.remove("has-text-light")
+//     // Navbar brand colors
+//     // nbtext.classList.add("has-text-dark")
+//     // nbtext.classList.remove("has-text-light")
 
-  }
-};
+//   }
+// };
 
 // document.addEventListener('DOMContentLoaded', () => {
 
