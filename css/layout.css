@@ -28,8 +28,8 @@ body {
   border-radius: 5vh; /*Make a rounded stack*/
 }
 
-.pages.is-second {
-  
+.pages.is-third {
+  top: 0rem;
 }
 
 .level.is-vcentered {
