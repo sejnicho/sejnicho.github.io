@@ -11,23 +11,32 @@ body {
   /* background-color: var(--background-primary); */
 }
 
+.pagefront {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
 .pages {
   position: sticky;
   width: 100%;
-  height: 100vh;
-      top: 0;
+  height: calc(100vh-10rem);
+      top: 5rem; /* Want this to be navbar height, but variable isn't responsive to change from larger text size*/
   display: inline-block;
   display: flex;
   padding: 10px;
   box-sizing: border-box;
-}
-
-.pages.is-stack {
-  top: 10vh; /* Want this to be navbar height, but variable isn't responsive to change from larger text size*/
-  height: 80vh;
-  /* top: var(--bulma-navbar-height); */
   border-radius: 5vh; /*Make a rounded stack*/
 }
+
+/*.pages.is-stack {
+  top: 10vh; /* Want this to be navbar height, but variable isn't responsive to change from larger text size*/
+  /*height: 80vh;*/
+  /* top: var(--bulma-navbar-height); */
+  /*border-radius: 5vh; /*Make a rounded stack*/
+/*}*/
 
 .level.is-vcentered {
   display: flex;
