@@ -13,7 +13,7 @@ body {
 .bottom-page {
   position: sticky;
   width: 100%;
-  height: 200vh;
+  height: 100vh;
   top: 0;
   display: inline-block;
   display: flex;
