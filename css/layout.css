@@ -23,9 +23,10 @@ body {
 
 .stack-page {
   position: sticky;
-  width: calc(100vw - 2.5rem);
+  width: calc(100vw - 5rem);
   height: calc(100vh - 7.5rem);
   top: 5rem; /* Want this to be navbar height, but variable isn't responsive to change from larger text size*/
+  left: 2.5rem;
   display: inline-block;
   display: flex;
   padding: 10px;
