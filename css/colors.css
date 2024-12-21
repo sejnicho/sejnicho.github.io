@@ -17,7 +17,7 @@
 background-color: var(--dark-blue);
 }
 
-.is-agetic-orange {
+.is-agentic-orange {
   color: var(--agentic-orange);
 }
 
@@ -84,5 +84,5 @@ box-shadow: 10px 10px 5px 12px var(--pink-red);
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
-  font-size: 200px;
+  font-size: 5rem;
 }
