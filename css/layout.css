@@ -32,6 +32,10 @@ body {
   box-sizing: border-box;
   border-radius: 5vh; /*Make a rounded stack*/
 }
+.stack-break {
+  width: 100%;
+  height: 5rem;
+}
 
 .pages.is-stack {
   
