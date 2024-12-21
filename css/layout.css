@@ -10,6 +10,7 @@ body {
   /* height: 100%; */
   /* background-color: var(--background-primary); */
 }
+
 .pages {
   position: sticky;
   width: 100%;
@@ -22,14 +23,10 @@ body {
 }
 
 .pages.is-stack {
-  top: 5rem; /* Want this to be navbar height, but variable isn't responsive to change from larger text size*/
-  height: calc(100vh - 10rem);
+  top: 10vh; /* Want this to be navbar height, but variable isn't responsive to change from larger text size*/
+  height: 80vh;
   /* top: var(--bulma-navbar-height); */
   border-radius: 5vh; /*Make a rounded stack*/
-}
-
-.pages.is-third {
-  top: 0rem;
 }
 
 .level.is-vcentered {
