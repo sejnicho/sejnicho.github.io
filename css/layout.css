@@ -26,24 +26,17 @@ body {
   width: calc(100vw - 5rem);
   height: calc(100vh - 7.5rem);
   top: 5rem; /* Want this to be navbar height, but variable isn't responsive to change from larger text size*/
-  left: 2.5rem;
+  right: 2.5rem;
   display: inline-block;
   display: flex;
   padding: 10px;
   box-sizing: border-box;
   border-radius: 5vh; /*Make a rounded stack*/
 }
+
 .stack-break {
   width: 100%;
   height: 5rem;
-}
-
-.pages.is-stack {
-  
-  
-  /* top: var(--bulma-navbar-height); */
-  border-radius: 5vh; /*Make a rounded stack*/
-
 }
 
 .level.is-vcentered {
@@ -52,6 +45,10 @@ body {
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
   margin: auto auto;
+}
+
+.is-scroll-snap {
+  scroll-snap-type: x mandatory;
 }
 
 .navbar {
