@@ -26,7 +26,7 @@ body {
   width: calc(100vw - 5rem);
   height: calc(100vh - 7.5rem);
   top: 5rem; /* Want this to be navbar height, but variable isn't responsive to change from larger text size*/
-  right: 2.5rem;
+  left: 2.5rem;
   display: inline-block;
   display: flex;
   padding: 10px;
@@ -48,7 +48,7 @@ body {
 }
 
 .is-scroll-snap {
-  scroll-snap-type: x mandatory;
+  scroll-snap-type: y mandatory;
 }
 
 .navbar {
