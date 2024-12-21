@@ -17,6 +17,10 @@
 background-color: var(--dark-blue);
 }
 
+is-agetic-orange {
+  background-color: var(--agentic-orange);
+}
+
 .is-light-blue {
 background-color: var(--light-blue-2)
 }
@@ -72,4 +76,13 @@ box-shadow: 10px 10px 5px 12px var(--pink-red);
 
 .dropshadow-is-pink-cream {
   box-shadow: 10px 10px 5px 12px var(--pink-cream);
+}
+
+
+.inter-tight-title {
+  font-family: "Inter Tight", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 40px;
 }
